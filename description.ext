@@ -1,0 +1,57 @@
+author = "Spiderswine";
+onLoadName = "Altis Gang War";
+onLoadMission = "A RPG Game Mod developed by Spiderswine";
+loadScreen = "";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+disableChannels[]={0,1,2};
+enableDebugConsole = 1;
+respawnDialog = 0;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 30;
+};
+
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 150;
+corpseRemovalMinTime = 999;
+corpseRemovalMaxTime = 9999;
+
+#include "dialog\MasterHandler.h"
+
+//#include "AniRadar\gui\aniRadar.hpp"
+
+class RscTitles
+{
+	//#include "dialog\ui.hpp"
+	//#include "dialog\progress.hpp"
+	//#include "dialog\hud_nameTags.h"
+	//#include "AniRadar\gui\radar.hpp"
+};
+
+class CfgFunctions
+{
+	#include "config\Functions.h"
+};
+
+class CfgSounds
+{
+	#include "config\Sounds.h"
+};
+
+class CfgDebriefing
+{
+	#include "config\Briefings.h"
+};
+
+class CfgNotifications
+{
+	#include "config\Notifications.h"
+};

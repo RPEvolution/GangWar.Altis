@@ -1,0 +1,1 @@
+player addEventHandler["InventoryOpened", {_this call event_fnc_onInventoryOpened}];
